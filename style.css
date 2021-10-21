@@ -1,0 +1,49 @@
+html {
+    background-color: #99c1b9;
+    font-family: Helvetica, sans-serif;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.playerName {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    height: 200px;
+    width: 600px;
+}
+
+.column {
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    width: 200px;
+    color: #d88c9a;
+}
+
+.container {
+    background-color: #f1e3d3;
+
+}
+
+.bigContainer {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 18px;
+    
+}
